@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>SellAnItem</title>
+</head>
+
+<body>
+<center><h1>Sell an Item</h1></center>
+<h3>To place an item on sale insert the following details:</h3>
+
+<label for="name">Product name: </label>
+<input type="name" name="name" />
+<br>
+<br>
+<label for="description">Description:</label>
+<br>
+
+<textarea rows="3" cols="50" id="description"></textarea>
+<br>
+<br>
+<label for="price">Price(in euro):</label>
+<input type="number" name="price" /> <br>
+<br>
+<label for="quantity">Number of products:</label>
+<input type="number" name="quantity" /> <br>
+<br>
+<label for="category">Category</label><br>
+<input list="category" name = "datalist">
+<datalist id="category"></option>
+<option value="Book"></option>
+<option value="Film"></option>
+<option value="Game"></option>
+<option value="Car"></option>
+<option value="Appliance"></option>
+<option value="Other"></option>
+</datalist>
+<br><br>
+<input type="submit" value="Place Item">
+</body>
+
+</html>

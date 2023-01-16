@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title>Filterpage</title>
+</head>
+
+<body>
+<h2>Search by item name:</h2>
+<label for="pname">Product name: </label>
+<input type="username" name="pname" />
+
+<h3>or filter by:</h3>
+<label for="name">Supplier Name: </label>
+<input type="username" name="name" />
+<br>
+<br>
+<label for="price">Price lower than</label>
+<input type="number" name="price" /> <br> <br>
+<label for="price1">Price higher than</label>
+<input type="number" name="price1" /> 
+<br>
+<br>
+<label for="rating">Rating(between 1 and 5):</label>
+<input type="number" name="rating" /> 
+<br>
+<br>
+<label for="pickup">Pickup</label> 
+<input name="delivery_option" type="checkbox" value="pickup" /> <br>
+<label for="Delivery">Delivery</label> 
+<input name="delivery_option" type="checkbox" value="delivery" /><br>
+<br>
+<label for="category">Category</label><br>
+<input list="category" name = "datalist">
+<datalist id="category"></option>
+<option value="Book"></option>
+<option value="Film"></option>
+<option value="Game"></option>
+<option value="Car"></option>
+<option value="Appliance"></option>
+<option value="Other"></option>
+</datalist>
+<br>
+<br>
+<center><input type="submit" value="Search"></center>
+</body>
+</html>
